@@ -1,0 +1,167 @@
+/* Main style file. Override general styles here. Specific module or page type
+styles, often have their on css files, which are called only if necessary. */
+
+/*
+* =============================
+* === Base ===
+* =============================
+*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 2;
+  font-weight: 300;
+}
+
+p,
+td,
+li,
+label {
+  font-size: 1.07em;
+  line-height: 2;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.36em;
+  margin: 0.4em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.6em 0;
+}
+
+h3 {
+  font-size: 1.73em;
+  margin: 0.7em 0;
+}
+
+h4 {
+  font-size: 1.6em;
+  margin: 0.8em 0;
+}
+
+h5 {
+  font-size: 1.48em;
+  margin: 0.8em 0;
+}
+
+h6 {
+  font-size: 1.3em;
+  margin: 0.8em 0;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/**** Side Nav Menu Customization****/
+
+.side-nav > h3:first-child {
+  margin-top: 0;
+}
+
+.side-nav .nav .nav {
+  margin: 5px 0 10px 12px;
+}
+
+.side-nav .nav li a {
+  padding: 2px;
+  color: #767676;
+}
+
+.side-nav .nav li.active > a {
+  color: #337ab7 !important;
+  font-weight: 700;
+}
+
+.side-nav .nav .nav .nav {
+  font-size: 12px !important;
+}
+
+.side-nav .nav li a:hover {
+  color: #333 !important;
+  background: none !important;
+}
+
+/*
+  * =============================
+  * === Blog ===
+  * =============================
+  */
+
+.posts .post {
+  margin-bottom: 40px;
+}
+
+/*
+  * =============================
+  * === Util ===
+  * =============================
+  */
+
+.no-js {
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
+  width: 95%;
+  padding: 15px;
+  background-color: red;
+  color: #eee;
+  z-index: 500;
+  text-align: center;
+}
+
+.save_button {
+  position: fixed;
+  top: 100px;
+  left: 25px;
+  z-index: 50;
+}
+
+/*
+  * =============================
+  * === Responsive ===
+  * =============================
+  */
+
+/* 
+  * Extra small devices (portrait phones, less than 576px) 
+  * No media query since this is the default in Bootstrap
+  */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
